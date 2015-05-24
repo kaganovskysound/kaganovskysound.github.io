@@ -1,0 +1,114 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+img.circle.responsive-img {
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    border-width: 1px;
+}
+
+p {
+  size: 1rem;
+  line-height: 2rem;
+}
+
+p.center.white-text {
+    font-size: 1.2em;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+a.brand-logo {
+    color: #ffffff;
+}
+
+a.btn-large.waves-effect.waves-light.teal.lighten-1 {
+    background-color: #4d3bb3;
+    display: none;
+}
+
+footer.page-footer.teal {
+    background-color: #000000;
+}
+
+h1.header.center.teal-text.text-lighten-2 {
+    color: #ffffff;
+}
+
+h5.header.col.s12.light {
+    color: #ffffff;
+}
+
+i.mdi-navigation-menu {
+    color: #ffffff;
+}
+
+md-toolbar.md-default-theme {
+    background-color: #cc6f3d;
+}
+
+nav.white {
+    background-color: #000000;
+}
+
+ul.right.hide-on-med-and-down li a {
+    color: #ffffff;
+}
+
+ html body {
+    background-color: #000000;
+}
+
+h5.center {
+    color: #ffffff;
+}
+
+
+
+.parallax-container {
+  min-height: 550px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
